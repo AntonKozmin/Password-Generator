@@ -3,6 +3,7 @@ The small application to generate a password consist a sequence of non-repeating
 
 A set of unique symbols may defined by the user. To do this click mouse on the text area.
 Repeating symbols will removed. 
+![Input Area](https://1.bp.blogspot.com/-I0u3FVuxX9I/XIfjKFoU3sI/AAAAAAAAHio/UaTe_wwqojMJTBOmTOCVtk1GQ6bfuUqMgCLcBGAs/s1600/output.gif)
 
 To the password length limit by enter the value of the length into the top text field.
 
