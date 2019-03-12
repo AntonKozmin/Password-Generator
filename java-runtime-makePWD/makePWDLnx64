@@ -1,0 +1,3 @@
+#!/bin/bash 
+bin/java -m MakePassword/makePwd.MakePWD
+exit 0
