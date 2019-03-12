@@ -1,7 +1,7 @@
 # Password-Generator
 The small application to generate a password consist a sequence of non-repeating printable characters.
 
-A set of unique symbols may defined by the user. To do this click mouse on the text area.
+A set of unique symbols may defined by the user. To doing that click mouse on the text area.
 Repeating symbols will removed. 
 
 ![Clear Input Area and Typing a custom symbols set](https://1.bp.blogspot.com/-I0u3FVuxX9I/XIfjKFoU3sI/AAAAAAAAHio/UaTe_wwqojMJTBOmTOCVtk1GQ6bfuUqMgCLcBGAs/s1600/output.gif)
@@ -18,4 +18,4 @@ To back to start push the RESET button. Password generate can be done by push th
 
 This application will be run on any OS with installed Java VM.
 
-The program repository included Java 8 version with .jar file. Also the modular Java 11 version included. A Modular Run-Time Image : java-runtime-makePWD will run on Linux X64 system/container without Java VM. 
+The program repository included Java 8 version with .jar file. Also the modular Java 11 version included. A Modular Run-Time Image : java-runtime-makePWD will run on Linux X64 system/container without a preinstalled Java VM.
