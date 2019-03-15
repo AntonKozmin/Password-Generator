@@ -76,7 +76,6 @@ public class MakePWD {
         madePassword.setCaretColor(mainWindow.getForeground());
         madePassword.setText(originStr);
         madePassword.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 14));
-        madePassword.setLineWrap(true);
         passwordMake.setFont(new Font(Font.MONOSPACED, Font.BOLD, 14));
         passwordMake.setBackground(Color.WHITE);
         passwordMake.addActionListener(MakePWD::actionHandle);
