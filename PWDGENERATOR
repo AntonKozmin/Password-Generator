@@ -1,0 +1,24 @@
+#!/bin/bash
+
+MATRIX="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefgh?@#$%^&[~!,.]*ijklmnopqrstuvwxyz"
+LENGTH="1024"
+
+while ((${n:=0}<$LENGTH)); do
+        PASS="$PASS${MATRIX:$(($RANDOM%${#MATRIX})):1}"
+	let n+=1
+done
+
+echo
+
+while ((${i:=0}<$LENGTH)); do 
+		let i+=4
+		let z=$LENGTH-$i
+		echo -n "${PASS:$z:4}"
+		if ((i < $LENGTH)); then 
+		    echo -n ''
+		fi
+		done 
+	echo; echo 
+	
+exit 0
+ 
